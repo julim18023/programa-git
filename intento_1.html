@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>🎸Ropa&RockShoes!👟</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+ <a href="entrada.html"><button class="botones"><b>🏠Inicio🏠</b></button></a>
+	<section id="pimer_p">
+
+<h1 class="Titulo_prin">💫Registro!💫</h1>
+<br>
+<br>
+<p>Ingresa tu nombre</p>
+<input type="text" id="nu" name="" minlength="10" maxlength="40" value="" size="15">
+<br>
+<p>Ingresa una contraseña nueva</p>
+<input type="password" id="crear" minlength="8" maxlength="8" name="" value="">
+<br>
+<p>Ingresa el correo electronico</p>
+<input type="text" id="correo" name="" minlength="10" maxlength="40" value="">
+<br>
+<br>
+ <button class="botones" type="submit" id="boton1" onclick="nuevo()"><b>Iniciar sesión</b></button>
+<br>
+<br>
+</section>
+<script>
+	
+	function nuevo(){
+		 cnombre = document.getElementById ("nu").value;
+		 ccontraseña =document.getElementById ("crear").value;
+		 ccorreo =document.getElementById ("correo").value;
+		  
+		 if(cnombre=="Karen Martínez" && ccontraseña=="julik123" && ccorreo=="julianitanauzan@gmail.com"){
+		 	
+		 	window.location="inicios.html";
+		 }else if(cnombre=="Nidia Melendez" && ccontraseña=="Ni_ITE*2"&& ccorreo=="Nid23ITE_SIS@gmail.com"){
+		 	
+			window.location="inicios.html";
+		 }else{
+		 	cnombre=="" && ccontraseña=="" && ccorreo==""
+			alert("Ingresa por favor los datos!!");
+			window.location="intento_1.html";
+		 }
+	
+
+	  
+    }
+ </script>
+</body>
+</html>

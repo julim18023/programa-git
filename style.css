@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Vina+Sans&display=swap');
+body{
+   font-family: 'Vina Sans', sans-serif;
+   background:linear-gradient(#F4DFB6,#F39F5A);
+}
+
+#Entrada{
+background-image: url('wallpaper_in.png');
+width: 1490px;
+height: 760px;
+}
+.Bienvenida {
+display: flex;
+ justify-content: flex-start;
+	letter-spacing: 7px;
+    color: #3D0C11;
+    width: 470px;
+    height: 750px;
+				display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    border-radius:20px;
+    border: 6px outset #BE3144;
+    margin-top: -6px;
+    margin-right: 30px;
+}
+#Regis{
+	display: flex;
+	justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ height: 68px;
+ width: 179px;
+ border-style: double;
+	border-width: 4px;
+	padding: 23px;
+ margin-top: -620px;
+ margin-left: 900px;
+font-family: 'Playfair Display', serif;
+}
+#ISesion{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 135px;
+margin-left: 900px;
+font-size: 25px;
+border-style: double;
+border-width: 4px;
+padding: 10px;
+font-family: 'Playfair Display', serif;
+}
+#Inspeccionar{
+	display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 135px;
+margin-left: 920px;
+font-size: 25px;
+border-style: double;
+border-width: 4px;
+padding: 10px;
+font-family: 'Playfair Display', serif;
+}
+#zapt1{
+width: 385px;
+height: 230px;
+    margin-left: 420px;
+}
+#titu_ex{
+	font-size: 50px;
+	color:#811700;
+	display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.Titulo_prin{
+	color:#3D0C11;
+	width: 310px;
+ height: 53px;
+	background-color:#F4DFB6;
+	display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 50px;
+
+}
+.titulo_seg{
+	color:#811700;
+	margin-left:275px;
+ align-items: center;
+ justify-content: center;
+	font-size: 45px;
+}
+.Titulo_is{
+	color:#3D0C11;
+	width: 400px;
+ height: 70px;
+	background-image: url('inicio.png');
+	display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 50px;
+}
+#Inicio_Sesion{
+		background:linear-gradient(#F4DFB6,#F39F5A);
+		width: 1350px;
+  height: 645px;
+  margin-top: -50px;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.botones{
+	background-color: #B5CB99;
+	font-size: 16px;
+ height: 52px;
+ width: 110px;
+	border-style: double;
+	border-width: 4px;
+font-family: 'Playfair Display', serif;
+}
+
+.vision{
+	color:#6F2110;
+	width: 450px;
+	height: 100px;
+	background-color:#DE8F5F ;
+	font-family: 'Bebas Neue', sans-serif;
+}
+#pimer_p{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	padding: 10px;
+	background-image: url('wallpaper_in.png');
+}
+#Nosotros{
+	font-size: 21px;
+	display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+margin-left: 800px;
+font-size: 25px;
+}
+#descripcionv{
+	 width: 500px;
+    height: 120px;
+    padding: 10px;
+    background: #DC8686;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#descripcionm{
+	 width: 500px;
+    height: 120px;
+    padding: 10px;
+    background: #E2C799;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#Girl{
+width: 385px;
+height: 230px;
+margin-left: -400px;
+    
+    }
+#nu{
+	width: 280px;
+	height: 30px;
+
+}
+#crear{
+	width: 280px;
+	height: 30px;
+}
+#correo{
+	width: 280px;
+	height: 30px;
+}
+#boton1{
+	width: 172px;
+	height: 30px;
+}
+#explo{
+	margin-left: 900px;
+	}
+#MiViSo{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 500px;
+}
+#prin_explo{
+size: 10px;
+}
+
+		.triangulo {
+border-style: solid;
+    border-width: 43px;
+    width: 47px;
+    height: 0px;
+    position: absolute;
+    top: 199px;
+    left: 870px;
+    margin-block-end: -13px;
+    border-color: transparent transparent transparent white;
+}
+
+
+		
+ 
+		
